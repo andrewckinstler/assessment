@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { WelcomeModal, mapDispatchToProps } from './WelcomeModal';
-import { createUser, hasErrored } from '../../actions';
+import { createUser, hasErrored, addMessage } from '../../actions';
 import { startConversation } from '../../apiCalls';
 
 jest.mock('../../apiCalls');
